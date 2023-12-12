@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Great+Vibes&family=Poppins&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, black, rgb(219, 211, 211));
+
+  }
+  .calculator{
+   
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background: transparent;
+    box-shadow: 0px 15px 15px rgba(rgba(233, 224, 224, 0.856));
+   
+  }
+  input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(214, 196, 199, 0.4);
+    font-size: 20px;
+    text-align: right;
+    color: white;
+  }
+  input::placeholder{
+    color:rgb(253, 250, 250);
+  }
+  button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+
+    
+  }
+  .equalbtn{
+    background-color: orangered;
+  }
+  .operator{
+    color: darkgreen;
+  }
+
+   
